@@ -136,7 +136,7 @@ $(function() {
             });
 
             it('content changes when new feed loaded', function() {
-                expect(test)
+                expect()
             });
 
     });       
