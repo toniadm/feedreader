@@ -136,8 +136,8 @@ $(function() {
             });
 
             it('content changes when new feed loaded', function() {
-                expect()
+                expect(test mac)
             });
 
-    });       
+    });
 }());
