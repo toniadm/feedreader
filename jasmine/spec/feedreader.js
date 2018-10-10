@@ -118,16 +118,14 @@ $(function() {
              *
              */
 
-            let multEntries = document.getElementsByClassName('entry');
+            let multEntries = document.querySelectorAll('.feed .entry');
 
             beforeEach(function(done) {
-                loadFeed(0, function() {
-                done();
-            });
+                loadFeed(0, done);
         });
 
             it('check for at least one entry in feed', function() {
-                expect(multEntries.length).toBeGreaterThan(0);
+                expect(('.feed .entry').length).not.toBe(0);
 
             });
 
