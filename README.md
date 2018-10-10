@@ -1,6 +1,6 @@
 # Project Overview
 
-This application utilizes javascript to perform testing using Jasmine. The test are based on a web-based application that reads RSS feeds.
+This application utilizes javascript to perform testing using Jasmine. The tests are based on a web-based application that reads RSS feeds.
 
 
 ## How to use application locally
@@ -12,4 +12,4 @@ This application utilizes javascript to perform testing using Jasmine. The test 
 ## Dependencies
 
 1. Google Fonts
-2. [Jasmine 2.1](https://jasmine.github.io/)
+2. [Jasmine 2.1](https://jasmine.github.io/) Framework
